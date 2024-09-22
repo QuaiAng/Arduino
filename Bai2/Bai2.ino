@@ -30,7 +30,8 @@ bool denChopNMiligiay(int n, int led, int index) {
 
 void loop() {
   for (int i = 0; i < 10; i++) {
-    denChopNMiligiay(1000, leds[i], i);  // Mỗi đèn có một `preTimes` riêng
+    denChopNMiligiay(1000, leds[i], i);  
+    delay(1000);
   }
 }
 
